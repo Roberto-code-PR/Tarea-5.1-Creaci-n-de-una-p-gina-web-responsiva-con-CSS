@@ -1,0 +1,24 @@
+/* PERSONALIZACION - CAMBIO DE COLORES Y FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.encabezado{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+
+.caja-personal{
+    border-top: 5px solid #0d6efd;
+    border-radius: 15px;
+}
+
+.boton-personal{
+    background-color: #0d6efd;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
